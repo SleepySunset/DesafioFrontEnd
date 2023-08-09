@@ -1,23 +1,25 @@
 .encabezado{
-    background-color: #E6E6E6;
+    background-color: #e2cff9;
     text-align: center;
     
 }
 
-.batman{
+.logo{
     align-self: center;
     padding: 30px;
-    width: 100px;
+    width: 150px;
+    border-radius: 100px;
 }
 
 .titulo_principal{
-    color:#005677;
-    background-color: #C4C4C4;
+    color:#5d379f;
+    background-color: #d1b4fc;
     text-align: center;
     font-size: larger;
     padding: 10px;
     font-weight: 700;
     font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contenedor.vacio{
@@ -25,12 +27,13 @@
 }
 
 .contenedor{
-    font-size: 20px;  
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;  
 }
 
 .subtitulo{
-    background-color: #C4C4C4 ;
-    color:#005677;
+    background-color: #d1b4fc ;
+    color:#5d379f;
     padding: 15px 25px;
     text-transform: uppercase;
     font-weight: 700;
@@ -76,10 +79,11 @@
 
 footer{
     display: flex;
-    background-color: #005677;
+    background-color: #5d379f;
     color: white;
     padding: 20px;
     justify-content: end;
+    font-family: 'Montserrat', sans-serif;
     
     
 }
