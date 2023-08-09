@@ -1,0 +1,100 @@
+.encabezado{
+    background-color: #E6E6E6;
+    text-align: center;
+    
+}
+
+.batman{
+    align-self: center;
+    padding: 30px;
+    width: 100px;
+}
+
+.titulo_principal{
+    color:#005677;
+    background-color: #C4C4C4;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.contenedor.vacio{
+    height: 140px;
+}
+
+.contenedor{
+    font-size: 20px;  
+}
+
+.subtitulo{
+    background-color: #C4C4C4 ;
+    color:#005677;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.listado{
+    padding: 20px;
+}
+
+.listado.personales{
+    list-style: disc;
+    padding: 20px 20px 20px 45px;
+}
+
+.item{
+    padding: 10px;
+    display: flex;
+    
+}
+
+.item_personales{
+    margin: 10px;
+}
+
+.resaltado{
+    font-weight: bold;
+}
+
+.resaltado.personales{
+    font-style: italic ;
+}
+
+.texto_secundario{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.texto_secundario_personales{
+    padding: 0 10px;
+}
+
+footer{
+    display: flex;
+    background-color: #005677;
+    color: white;
+    padding: 20px;
+    justify-content: end;
+    
+    
+}
+
+.texto_footer{
+    font-size: 30px;
+    padding: 10px 30px;
+}
+
+.instagram{
+    width: 50px;
+    margin: 0 25px;
+}
+
+.linkedin{
+    width: 45px;
+    margin: 0 80px 0 25px;
+}
