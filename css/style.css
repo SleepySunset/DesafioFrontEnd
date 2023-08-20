@@ -15,6 +15,19 @@
     background-color: #d1b4fc;
 }
 
+.pages{
+    display: flex;
+    padding: 7px;
+    justify-content: end;
+
+}
+
+.page{
+    margin: 0 15px;
+    color:#5d379f;
+    font-style: bold;
+}
+
 .foto{
     position: absolute;
     width: 150px;
@@ -32,6 +45,7 @@
     font-weight: 700;
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 15px;
 }
 
 .contenedor.vacio{
@@ -40,7 +54,7 @@
 
 .contenedor{
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;  
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .subtitulo{
@@ -50,6 +64,7 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 25px;
+    letter-spacing: 8px;
 }
 
 .listado{
@@ -58,13 +73,12 @@
 
 .listado.personales{
     list-style: disc;
-    padding: 20px 20px 20px 45px;
+    list-style-position: inside;
 }
 
 .item{
     padding: 10px;
-    display: flex;
-    
+    display: flex; 
 }
 
 .item_personales{
@@ -96,8 +110,6 @@
     padding: 20px 80px 20px 20px;
     justify-content: end;
     font-family: 'Montserrat', sans-serif;
-    
-    
 }
 
 .texto_footer{
@@ -128,4 +140,8 @@
 
 .github{
     width: 46px;
+}
+
+.texto_sobremi{
+    padding: 30px;
 }
